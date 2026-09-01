@@ -1,0 +1,8 @@
+{
+  "name": "Remix WaveTune",
+  "description": "Premium Android Music Player with offline playback, smart queue, equalizer, lyrics, and local audio library management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

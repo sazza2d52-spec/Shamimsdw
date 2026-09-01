@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Background Circle -->
+    <path
+        android:pathData="M54,14 A40,40 0 1,0 54,94 A40,40 0 1,0 54,14 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#A855F7" android:offset="0.5" />
+                <item android:color="#EC4899" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Dark Core -->
+    <path
+        android:fillColor="#0B0F19"
+        android:pathData="M54,20 A34,34 0 1,0 54,88 A34,34 0 1,0 54,20 Z" />
+
+    <!-- Waveform Bars -->
+    <!-- Bar 1 -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M32,46 L36,46 A2,2 0 0,1 38,48 L38,60 A2,2 0 0,1 36,62 L32,62 A2,2 0 0,1 30,60 L30,48 A2,2 0 0,1 32,46 Z" />
+
+    <!-- Bar 2 -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M41,38 L45,38 A2,2 0 0,1 47,40 L47,68 A2,2 0 0,1 45,70 L41,70 A2,2 0 0,1 39,68 L39,40 A2,2 0 0,1 41,38 Z" />
+
+    <!-- Bar 3 (Center Peak) -->
+    <path
+        android:fillColor="#A855F7"
+        android:pathData="M50,30 L54,30 A2,2 0 0,1 56,32 L56,76 A2,2 0 0,1 54,78 L50,78 A2,2 0 0,1 48,76 L48,32 A2,2 0 0,1 50,30 Z" />
+
+    <!-- Bar 4 -->
+    <path
+        android:fillColor="#C084FC"
+        android:pathData="M59,36 L63,36 A2,2 0 0,1 65,38 L65,70 A2,2 0 0,1 63,72 L59,72 A2,2 0 0,1 57,70 L57,38 A2,2 0 0,1 59,36 Z" />
+
+    <!-- Bar 5 -->
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M68,44 L72,44 A2,2 0 0,1 74,46 L74,62 A2,2 0 0,1 72,64 L68,64 A2,2 0 0,1 66,62 L66,46 A2,2 0 0,1 68,44 Z" />
+
+    <!-- Bar 6 -->
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M77,50 L81,50 A2,2 0 0,1 83,52 L83,56 A2,2 0 0,1 81,58 L77,58 A2,2 0 0,1 75,56 L75,52 A2,2 0 0,1 77,50 Z" />
+</vector>
